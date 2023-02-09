@@ -1,4 +1,4 @@
-module github.com/davidalencar/phxgoclient
+module github.com/sonio-ai/phxgoclient
 
 go 1.18
 
