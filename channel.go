@@ -74,7 +74,7 @@ func (channel *Channel) incrementRef() int64 {
 }
 
 // To avoid a connection timeout the client needs to send the server a heartbeat event.
-func (channel *Channel) heartbeat() {
+func (channel *Channel) heartbeath() {
 
 	if !channel.IsOpen() {
 		return
